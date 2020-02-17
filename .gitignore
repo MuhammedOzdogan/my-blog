@@ -1,5 +1,11 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+#jet-brains
+.idea
+
+#node
+package-lock.json
+
 # dependencies
 /node_modules
 
@@ -15,6 +21,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+
 
 npm-debug.log*
 yarn-debug.log*
