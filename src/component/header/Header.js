@@ -26,17 +26,17 @@ class Header extends Component {
                         <li><a className="smoothscroll" href="#about">About</a></li>
                         <li><a className="smoothscroll" href="#resume">Resume</a></li>
                         <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-                        <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+                        <li><a className="smoothscroll" href="#quotes">quotes</a></li>
                         <li><a className="smoothscroll" href="#contact">Contact</a></li>
                     </ul>
 
                 </nav>
 
-                <div className="row banner">
+                <div className="row banner header-banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline black-color">I'm {name}.</h1>
-                        <h3 className="">I'm a <span>{occupation}</span> in {city}. </h3>
-                        <h4 className="test">{description}.</h4>
+                        <h3 className="black-color"><span>{occupation}</span> in {city}. </h3>
+                        <h3 className="">{description}.</h3>
                         <hr/>
                         <ul className="social">
                             {networks}

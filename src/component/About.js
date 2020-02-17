@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 class About extends Component {
   render() {
 
@@ -32,7 +31,7 @@ class About extends Component {
                   <p className="address">
 						   <span>{name}</span><br />
 						   <span>{street}<br />
-						         {city} {state}, {zip}
+						         {state} / {city}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
                      <span>{email}</span>
@@ -40,7 +39,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href="cv.pdf" className="button" download="My Cv"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
