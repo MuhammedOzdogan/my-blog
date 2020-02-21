@@ -1,0 +1,159 @@
+{
+  "main": {
+    "name":"Muhammed Özdoğan",
+    "occupation":"Computer Engineer",
+    "description":"A human being who curious about the computer.",
+    "image":"sunglass.jpg",
+    "bio":"Hello World! I'm a student in Sakarya University and Software Contractor at Toyota Europe. I am a full-stack web developer. Also I worked on mobile app development and I have enough information about Dev-Ops to deploy apps with Docker, get SSL Certificates with Let's Encrypt and so on. I am big fan of Spring Framework in Enterprise Web Applications.",
+    "contactmessage":"You can write here to contact with me",
+    "email": "muhammed.ozdogan.44@gmail.com",
+    "phone": "+90 505 030 40 54",
+    "address":{
+      "street":"Kemal Pasa",
+      "city":"Sakarya",
+      "state":"Serdivan",
+      "zip": "54050"
+    },
+    "website": "https://www.muhammedozdogan.com",
+    "resumedownload":"http://timbakerdev.com/resume",
+    "social":[
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/MuhammedZDOAN19",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/muhammed-%C3%B6zdo%C4%9Fan-613450153/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/muhammed.ozdogan.44/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/MuhammedOzdogan",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here is my skills that I use daily:",
+    "education":[
+      {
+        "school":"Sakarya University",
+        "degree":"Bachelor of Computer Science",
+        "graduated":"May 2020",
+        "description":"Here I took my Bachelors of Computer Science and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms.."
+      }
+    ],
+    "work":[
+      {
+        "company":"Toyota Europe",
+        "title":"Contractor",
+        "years":"July 2017 - Present",
+        "description":"I am working at Toyota Europe about 3 years as a Full-Stack Web Developer, I build many of Rest Full API's and beautiful web UI's that run in many factories of Toyota. We generally have used Spring for backend and ReactJs for frontend."
+      },
+      {
+        "company":"Fame Things",
+        "title":"Co-Founder / CTO",
+        "years":"May 2018 - February 2020",
+        "description":"Fame Things was a Start-Up that me and my friend have found, main purpose of FameThings is founding products that shown in a video. I worked alone for 1 years at tech side, I build core API's of Fame Things, Data Management Panel of Fame Things, Web Extension of Fame Things(Our first MVP) and Official Web Page of Fame Things  and after that we get seed investment and build a crew. With our new crew we developed Mobile Application of Fame Things. I use Spring and ExpressJs for backend. Our Web UI's has been made with Angular and we write mobile application in Java."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"ExpressJs",
+        "level":"55%"
+      },
+      {
+        "name":"Angular",
+        "level":"80%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"90%"
+      },
+      {
+        "name":"Spring",
+        "level":"70%"
+      },
+      {
+        "name":"Android Native Development",
+        "level":"80%"
+      },
+      {
+        "name":"React Native",
+        "level":"40%"
+      },
+      {
+        "name":"Flutter",
+        "level":"45%"
+      },
+      {
+        "name":"PostgreSQL",
+        "level":"60%"
+      },
+      {
+        "name":"MySql",
+        "level":"80%"
+      },
+      {
+        "name":"Google Cloud",
+        "level":"60%"
+      },
+      {
+        "name":"Docker",
+        "level":"65%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Fame Things Official Web Site",
+        "category":"E-Commerce",
+        "image":"ft-official.png",
+        "url":"https://www.famethings.com"
+      },
+      {
+        "title":"Fame Things Data Management Panel",
+        "category":"Dashboard for Fame Things admins and Fame Things influencers.",
+        "image":"panel.png",
+        "url":"https://panel.famethings.com"
+      },
+      {
+        "title":"Fame Things Android App",
+        "category":"This app shows the products that shown on the Youtube videos.",
+        "image":"mobil.png",
+        "url":"https://play.google.com/store/apps/details?id=com.famethings.android"
+      }
+    ]
+  },
+  "quotes":{
+    "quotes":[
+      {
+        "text":"The best thing you can do is the right thing;\nthe next best thing you can do is the wrong thing;\nthe worst thing you can do is nothing",
+        "user":"Theodore Roosevelt"
+      },
+      {
+        "text":"Try a thing you haven’t done three times.\nOnce to get over the fear of doing it.\nTwice, to learn how to do it.\nAnd a third time to figure out whether you like it or not.",
+        "user":"Virgil Thomson"
+      }
+    ]
+  }
+}
