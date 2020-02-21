@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
-  render() {
 
-    if(this.props.data){
+
+    handleSubmit = e => {
+
+    };
+    render() {
+
+        if(this.props.data){
       var name = this.props.data.name;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
@@ -13,6 +18,7 @@ class Contact extends Component {
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
+
 
     return (
       <section id="contact">
@@ -36,7 +42,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form onSubmit={this.handleSubmit} action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -56,7 +62,7 @@ class Contact extends Component {
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"/>
                   </div>
 
                   <div>
@@ -70,7 +76,7 @@ class Contact extends Component {
 
            <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
+                  <i className="fa fa-check"/>Your message was sent, thank you!<br />
 				   </div>
            </div>
 
