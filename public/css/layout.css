@@ -645,7 +645,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #quotes {
-   background: #1F1F1F url(../images/quotes-bg.jpg) no-repeat center center;
+   /*background: #1F1F1F url(../images/quotes-bg.jpg) no-repeat center center;*/
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
