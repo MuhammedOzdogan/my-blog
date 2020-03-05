@@ -36,7 +36,7 @@ class Header extends Component {
                     <div className="banner-text">
                         <h1 className="responsive-headline black-color">I'm {name}.</h1>
                         <h3 className="black-color"><span>{occupation}</span> in {city}. </h3>
-                        <h3 className="">{description}.</h3>
+                        <h3 className="desc-header" style={{'font-size': 'small'}}>{description}.</h3>
                         <hr/>
                         <ul className="social">
                             {networks}
